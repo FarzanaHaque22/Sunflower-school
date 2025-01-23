@@ -53,3 +53,26 @@ body{
     font-size: 20px;
     font-weight: 500;
 }
+.btn{
+    max-width: 197px;
+    border-radius: 12px;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    font-size: 600px;
+    font-weight: 600;
+    color: white;
+    background-color: #FEA301;
+    justify-content: right;
+
+}
+.school-nav{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 40px;
+    justify-content: space-between;
+
+}
+button:hover{
+    background-color: pink;
+}
