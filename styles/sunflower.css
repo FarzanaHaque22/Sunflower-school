@@ -1,0 +1,55 @@
+body{
+    background-image: url("pictures\bg.png");
+    background: linear-gradient( #fdeeef , #f2ecb6);
+}
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.school-image{
+    max-width: 4rem;
+
+}
+.school-title{
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+}
+.school-name{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.home{
+    color: #FEA301;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about{
+    color: #01ACFD;
+    font-size: 20px;
+    font-weight: 400;
+}
+.facilities{
+    color: #05D4DF;
+    font-size: 20px;
+    font-weight: 500;
+}
+.admission{
+    color:  #5D58EF;
+    font-size: 20px;
+    font-weight: 500;
+}
