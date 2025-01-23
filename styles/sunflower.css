@@ -26,21 +26,23 @@ main{
 .navbar{
     display: flex;
     flex-direction: row;
-    gap: 32px;
-    text-decoration-style: none;
+    margin-right: 32px;
+    list-style: none;
     justify-content: center;
     align-items: center;
-
+}
+.navlinks{
+    text-decoration: none;
 }
 .home{
     color: #FEA301;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
 }
 .about{
     color: #01ACFD;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
 }
 .facilities{
     color: #05D4DF;
@@ -52,25 +54,22 @@ main{
     font-size: 20px;
     font-weight: 500;
 }
-.btn{
-    max-width: 20px;
-    border-radius: 12px;
-    padding: 10px;
-    gap: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-    background-color: #FEA301;
-    justify-content: right;
-
-}
 .school-nav{
     display: flex;
     flex-direction: row;
     margin: 20px 40px;
     justify-content: space-between;
 
+}
+.btn{
+    max-width: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #FEA301;
 }
 button:hover{
     background-color: pink;
@@ -84,10 +83,10 @@ button:hover{
 .font0{
     color: #FEA301;
 }
-.font1{
+.font-1{
     color: black;
 }
-.font2{
+.font-2{
     color: #01ACFD;
 }
 .banner-text{
@@ -102,6 +101,7 @@ button:hover{
     gap: 10px;
     background-color: #111111;
     color: white;
+    margin: 0 auto;
 }
 .banner-image{
     justify-content: right;
@@ -114,9 +114,42 @@ button:hover{
     gap: 50px;
     max-width: 140px;
 
+}
+.banner{
+    padding: 120px 0;
+}
+.curriculum{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.class1{
+    background:linear-gradient( #DEF5FF, #ffffff);
+    border-radius: 18px;
+    border-color: #DEF5FF;
+    border-width: 1px;
+    box-shadow: inset 10px 10px 10px gainsboro;
 
 
 }
-.banner{
-    padding: 200px 0;
+
+
+
+}
+.button-font{
+    font-size: 15px;
+    font-weight: 700;
+    background: none;
+    border-style: none
+
+}
+.btn1{
+    color: #01ACFD;
+}
+.btn2{
+    color: #FEA301;
+}
+.btn{
+    color: #5D58EF;
 }
