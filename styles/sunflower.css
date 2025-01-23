@@ -1,8 +1,7 @@
 body{
-    background-image: url("pictures\bg.png");
-    background: linear-gradient( #fdeeef , #f2ecb6);
+    background-image: url("projects\bg.png");
+   
 }
-
 
 .quicksand-font {
   font-family: "Quicksand", serif;
@@ -54,7 +53,7 @@ body{
     font-weight: 500;
 }
 .btn{
-    max-width: 197px;
+    max-width: 20px;
     border-radius: 12px;
     padding: 10px;
     gap: 10px;
@@ -75,4 +74,40 @@ body{
 }
 button:hover{
     background-color: pink;
+}
+.banner-title{
+    text-align: left;
+    font-size: 56px;
+    font-weight: 700;
+
+}
+.font0{
+    color: #FEA301;
+}
+.font1{
+    color: black;
+}
+.font2{
+    color: #01ACFD;
+}
+.banner-text{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    padding: 24px 0;
+}
+.btn-1{
+    border-radius: 12px;
+    padding: 10px;
+    gap: 10px;
+    background-color: #111111;
+    color: white;
+}
+.banner-image{
+    justify-content: right;
+
+}
+.banner, .banner-image{
+    display: flex;
+    flex-direction: column;
 }
