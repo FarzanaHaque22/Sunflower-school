@@ -30,6 +30,7 @@ main{
     list-style: none;
     justify-content: center;
     align-items: center;
+
 }
 .navlinks{
     text-decoration: none;
@@ -57,12 +58,10 @@ main{
 .school-nav{
     display: flex;
     flex-direction: row;
-    margin: 20px 40px;
     justify-content: space-between;
 
 }
 .btn{
-    max-width: 20px;
     border-radius: 12px;
     padding: 10px;
     text-align: center;
@@ -80,6 +79,21 @@ button:hover{
     font-weight: 700;
 
 }
+
+.same-font{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.font-side{
+    text-align: left;
+}
+.p-font{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+}
+
 .font0{
     color: #FEA301;
 }
@@ -122,20 +136,37 @@ button:hover{
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-top: 40px;
 }
 .class1{
     background:linear-gradient( #DEF5FF, #ffffff);
     border-radius: 18px;
     border-color: #DEF5FF;
     border-width: 1px;
-    box-shadow: inset 10px 10px 10px gainsboro;
-
-
+    box-shadow: inset 0px 0px 30px whitesmoke;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
-
-
-
+.class2{
+    background:linear-gradient( #FFF4DC, #ffffff);
+    border-radius: 18px;
+    border-color: #FFF4DC;
+    border-width: 1px;
+    box-shadow: inset 0px 0px 30px beige;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.class3{
+    background:linear-gradient( #F2E8FF, #ffffff);
+    border-radius: 18px;
+    border-color: #F2E8FF;
+    border-width: 1px;
+    box-shadow: inset 0px 0px 30px #efccf7;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 .button-font{
     font-size: 15px;
@@ -152,4 +183,26 @@ button:hover{
 }
 .btn{
     color: #5D58EF;
+}
+.class1,.class2, .class3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+    gap: 28px;
+    padding: 50px 0;
+
+
+}
+.center-button{
+    background-color: #FEA301;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 0px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    gap: 10px;
 }
