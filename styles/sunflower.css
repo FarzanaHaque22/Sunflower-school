@@ -212,3 +212,36 @@ button:hover{
     margin-bottom: 40px;
     gap: 10px;
 }
+.story-font{
+    font-size: 15px;
+    font-weight:700;
+
+}
+.footer1 h4, .footer2 h4,.footer3 h4 {
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer1 p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer1,.footer2,.footer3{
+    display: flex;
+justify-content: space-between;
+}
+.footer3 a{
+    display: inline;
+}
+
+.footer2 a, .footer3 a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer2 a:hover, .footer3 a:hover{
+    text-decoration: underline;
+
+}
