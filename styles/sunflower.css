@@ -1,5 +1,5 @@
 main{
-    background-image: url(projects\bg.png);
+    background-image: url(C:\projects\bg.png);
     background: linear-gradient(white, rgb(247, 208, 128));
 }
 
@@ -26,14 +26,16 @@ main{
 .navbar{
     display: flex;
     flex-direction: row;
-    margin-right: 32px;
+    margin-right: 20px;
     list-style: none;
     justify-content: center;
     align-items: center;
 
 }
 .navlinks{
-    text-decoration: none;
+    text-decoration-style: none;
+
+
 }
 .home{
     color: #FEA301;
@@ -62,6 +64,7 @@ main{
 
 }
 .btn{
+    width: auto;
     border-radius: 12px;
     padding: 10px;
     text-align: center;
@@ -123,10 +126,10 @@ button:hover{
 }
 .banner, .banner-image{
     display: flex;
-    flex-direction: column;
-    margin: 0 140px;
+    flex-direction: row;
+    margin: 0 50px;
     gap: 50px;
-    max-width: 140px;
+    max-width: auto;
 
 }
 .banner{
@@ -184,10 +187,10 @@ button:hover{
 .btn{
     color: #5D58EF;
 }
-.class1,.class2, .class3 {
+.classes {
     display: flex;
     flex-direction: column;
-    margin: 0 100px;
+    margin: 0 auto;
     gap: 28px;
     padding: 50px 0;
 
