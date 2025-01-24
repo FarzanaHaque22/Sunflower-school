@@ -217,10 +217,22 @@ button:hover{
     font-weight:700;
 
 }
+
+.footer{
+    background-color: turquoise;
+    color: white;
+}
 .footer1 h4, .footer2 h4,.footer3 h4 {
     margin-bottom: 1rem;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 30px;
+}
+.footer1-name{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    max-width: 300px;
 }
 
 .footer1 p {
@@ -229,10 +241,14 @@ button:hover{
 }
 .footer1,.footer2,.footer3{
     display: flex;
+    flex-direction: row;
 justify-content: space-between;
+margin: 130px 140px;
+
 }
 .footer3 a{
     display: inline;
+    padding-bottom: 15px;
 }
 
 .footer2 a, .footer3 a{
